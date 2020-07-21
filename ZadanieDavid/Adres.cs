@@ -15,6 +15,7 @@ namespace ZadanieDavid
         internal static Adres ParseRow(string row)
         {
             var columns = row.Split(';');
+
             return new Adres()
             {
                 AddressId = int.Parse(columns[0]),

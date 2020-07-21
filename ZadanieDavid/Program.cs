@@ -19,6 +19,7 @@ namespace ZadanieDavid
             int id = Convert.ToInt32(Console.ReadLine());
 
             var person = GetPerson(id);
+
             var adres = GetAdres(id);
 
             

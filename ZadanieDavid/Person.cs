@@ -14,6 +14,7 @@ namespace ZadanieDavid
        internal static Person ParseRow(string row)
         {
             var columns = row.Split(';');
+
             return new Person()
             {
                 PersonId = int.Parse(columns[0]),
